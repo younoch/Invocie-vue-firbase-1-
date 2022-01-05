@@ -5,6 +5,7 @@
       <Navigation />
       <div class="app-content flex flex-column">
         <InvoiceModal v-if="invoiceModal" />
+
         <router-view />
       </div>
     </div>
